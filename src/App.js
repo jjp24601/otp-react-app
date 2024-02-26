@@ -126,7 +126,7 @@ function App() {
                 {hasAcknowledgedText && (
                     <div>
                         <br></br>
-                        <button onClick={handleReset}>Reset</button>
+                        <button onClick={handleReset}>Reset Form</button>
                     </div>
                 )}
                 {message && <p style={messageStyle}>{message}</p>}
